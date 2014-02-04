@@ -1,12 +1,17 @@
 # App
 
 ## To Do
-
 - [ ] Install Devise
 - [ ] Install ActiveAdmin
 - [ ] Install Travis
 - [ ] Install Code Climate
 - [ ] Tests passing
+
+- [ ] a task list item
+- [ ] list syntax required
+- [ ] normal **formatting**, @mentions, #1234 refs
+- [ ] incomplete
+- [x] completed
  
 ## References
 
