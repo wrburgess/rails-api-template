@@ -11,9 +11,9 @@
 ## References
 
 * Link to [Rails 4 Bootstrap Gist](https://gist.github.com/wrburgess/7199751)
-* figaro gem *secure env variables* [repo](https://github.com/laserlemon/figaro) | [gem](http://rubygems.org/gems/figaro)
-* devise *auth* [gem](http://rubygems.org/gems/devise) | [repo](https://github.com/plataformatec/devise)
-* active_admin *quick admin dashboard* [gem](http://rubygems.org/gems/activeadmin) | [repo](https://github.com/gregbell/active_admin) | [site](http://activeadmin.info/)
+* figaro: *secure env variables*, [repo](https://github.com/laserlemon/figaro) | [gem](http://rubygems.org/gems/figaro)
+* devise: *auth system*, [gem](http://rubygems.org/gems/devise) | [repo](https://github.com/plataformatec/devise)
+* active_admin: *quick admin dashboard*, [gem](http://rubygems.org/gems/activeadmin) | [repo](https://github.com/gregbell/active_admin) | [site](http://activeadmin.info/)
 
 ## Initial Tasks
 
