@@ -2,11 +2,11 @@
 
 ## To Do
 
-- [ ] Install Devise  
-- [ ] Install ActiveAdmin  
-- [ ] Install Travis  
-- [ ] Install Code Climate  
-- [ ] Tests passing  
+- [] Install Devise  
+- [] Install ActiveAdmin  
+- [] Install Travis  
+- [] Install Code Climate  
+- [x] Tests passing  
 
 ## References
 
