@@ -1,18 +1,18 @@
 # App
 
 ## To Do
+teset
 - [ ] Install Devise
 - [ ] Install ActiveAdmin
 - [ ] Install Travis
 - [ ] Install Code Climate
 - [ ] Tests passing
-
 - [ ] a task list item
 - [ ] list syntax required
 - [ ] normal **formatting**, @mentions, #1234 refs
 - [ ] incomplete
 - [x] completed
- 
+test
 ## References
 
 * Link to [Rails 4 Bootstrap Gist](https://gist.github.com/wrburgess/7199751)
