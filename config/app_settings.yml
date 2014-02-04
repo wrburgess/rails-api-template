@@ -1,0 +1,18 @@
+defaults: &defaults
+  app_name: "AppName"
+
+test:
+  <<: *defaults
+  app_server: "Test"
+
+development:
+  <<: *defaults
+  app_server: "Development"
+
+staging:
+  <<: *defaults
+  app_server: "Staging"
+
+production:
+  <<: *defaults
+  app_server: "Production"
