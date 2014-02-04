@@ -2,11 +2,11 @@
 
 ## To Do
 
-- [] Install Devise  
-- [] Install ActiveAdmin  
-- [] Install Travis  
-- [] Install Code Climate  
-- [x] Tests passing  
+1. Install Devise  
+1. Install ActiveAdmin  
+1. Install Travis  
+1. Install Code Climate  
+1. Tests passing  
 
 ## References
 
@@ -17,23 +17,23 @@
 
 ## Initial Tasks
 
-[ ] Conduct a Search & Replace for all instances of "AppName" and "appname" and replace with your own application name.
-[ ] Change the database names in the ```config/database.yml``` file
-[ ] Change the app name in the ```config/initializers/session_store.rb``` file
-[ ] Rename the custom rake task for dev rebuild in ```lib/tasks/appname.rake```
-[ ] Edit the initial database migration file as appropriate at ```db/migrate```
-[ ] Install figaro gem with ```rails generate figaro:install```
-[ ] Run ```rake secret``` and add secret key to ```config/application.yml``` file for ```APP_SECRET_KEY_BASE``` 
-[ ] Create ```.rspec``` file to hold rspec config
+1. Conduct a Search & Replace for all instances of "AppName" and "appname" and replace with your own application name.
+1. Change the database names in the ```config/database.yml``` file
+1. Change the app name in the ```config/initializers/session_store.rb``` file
+1. Rename the custom rake task for dev rebuild in ```lib/tasks/appname.rake```
+1. Edit the initial database migration file as appropriate at ```db/migrate```
+1. Install figaro gem with ```rails generate figaro:install```
+1. Run ```rake secret``` and add secret key to ```config/application.yml``` file for ```APP_SECRET_KEY_BASE``` 
+1. Create ```.rspec``` file to hold rspec config
 
 ## Create Staging Environment on Heroku
 
-[ ] Copy env file: ```cp config/environments/production.rb config/environments/staging.rb```
-[ ] Set up git config: ```git config heroku.remote staging```
-[ ] Set up env vars on Heroku: ```heroku config:set RACK_ENV=staging RAILS_ENV=staging```
+1. Copy env file: ```cp config/environments/production.rb config/environments/staging.rb```
+1. Set up git config: ```git config heroku.remote staging```
+1. Set up env vars on Heroku: ```heroku config:set RACK_ENV=staging RAILS_ENV=staging```
 
 ## Set up Environment Variables on Heroku
 
-[ ] Push environment vars to heroku: ```rake figaro:heroku --remote [remote_name]```
+1. Push environment vars to heroku: ```rake figaro:heroku --remote [remote_name]```
 
 
