@@ -11,7 +11,7 @@
 ## References
 
 * Link to [Rails 4 Bootstrap Gist](https://gist.github.com/wrburgess/7199751)
-* figaro: *secure env variables*, [repo](https://github.com/laserlemon/figaro) | [gem](http://rubygems.org/gems/figaro)
+* figaro: *secure env variables*, [gem](http://rubygems.org/gems/figaro) | [repo](https://github.com/laserlemon/figaro)
 * devise: *auth system*, [gem](http://rubygems.org/gems/devise) | [repo](https://github.com/plataformatec/devise)
 * active_admin: *quick admin dashboard*, [gem](http://rubygems.org/gems/activeadmin) | [repo](https://github.com/gregbell/active_admin) | [site](http://activeadmin.info/)
 
@@ -19,12 +19,11 @@
 
 1. Conduct a Search & Replace for all instances of "AppName" and "appname" and replace with your own application name.
 1. Change the database names in the ```config/database.yml``` file
-1. Change the app name in the ```config/initializers/session_store.rb``` file
-1. Rename the custom rake task for dev rebuild in ```lib/tasks/appname.rake```
+1. Change the app name in the ```config/initializers/session_store.rb``` file (if necessary)
+1. Rename the custom rake task for dev rebuild in ```lib/tasks/app.rake```
 1. Edit the initial database migration file as appropriate at ```db/migrate```
 1. Install figaro gem with ```rails generate figaro:install```
-1. Run ```rake secret``` and add secret key to ```config/application.yml``` file for ```APP_SECRET_KEY_BASE``` 
-1. Create ```.rspec``` file to hold rspec config
+1. Run ```rake secret``` and add secret key to ```config/application.yml``` file for ```APP_SECRET_KEY_BASE```
 
 ## Create Staging Environment on Heroku
 
