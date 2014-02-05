@@ -2,8 +2,9 @@
 
 ## Status
 
-[![Dependency Status](https://gemnasium.com/wrburgess/rails-api-template.png)](https://gemnasium.com/wrburgess/rails-api-template)
-[![Code Climate](https://codeclimate.com/github/wrburgess/rails-api-template.png)](https://codeclimate.com/github/wrburgess/rails-api-template)
+[![Dependency Status](https://gemnasium.com/wrburgess/rails-api-template.png)](https://gemnasium.com/wrburgess/rails-api-template)  
+[![Code Climate](https://codeclimate.com/github/wrburgess/rails-api-template.png)](https://codeclimate.com/github/wrburgess/rails-api-template)  
+[![Build Status](https://travis-ci.org/wrburgess/rails-api-template.png?branch=master)](https://travis-ci.org/wrburgess/rails-api-template)
 
 
 ## To Do
