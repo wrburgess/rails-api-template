@@ -1,11 +1,16 @@
 # App
 
+## Status
+
+[![Dependency Status](https://gemnasium.com/wrburgess/rails-api-template.png)](https://gemnasium.com/wrburgess/rails-api-template)
+[![Code Climate](https://codeclimate.com/github/wrburgess/rails-api-template.png)](https://codeclimate.com/github/wrburgess/rails-api-template)
+
+
 ## To Do
 
 1. Install Devise  
 1. Install ActiveAdmin  
 1. Install Travis  
-1. Install Code Climate  
 1. Tests passing  
 
 ## References
@@ -14,6 +19,9 @@
 * figaro: *secure env variables*, [gem](http://rubygems.org/gems/figaro) | [repo](https://github.com/laserlemon/figaro)
 * devise: *auth system*, [gem](http://rubygems.org/gems/devise) | [repo](https://github.com/plataformatec/devise)
 * active_admin: *quick admin dashboard*, [gem](http://rubygems.org/gems/activeadmin) | [repo](https://github.com/gregbell/active_admin) | [site](http://activeadmin.info/)
+* gemnasium: [site](https://gemnasium.com/wrburgess/rails-api-template) | [dashboard](https://gemnasium.com/dashboard)
+* code climate: [site](https://codeclimate.com/github/wrburgess/rails-api-template)
+* travis-ci: [site](travis-ci.com) | [profile](https://travis-ci.org/profile/wrburgess)
 
 ## Initial Tasks
 
@@ -24,6 +32,8 @@
 1. Edit the initial database migration file as appropriate at ```db/migrate```
 1. Install figaro gem with ```rails generate figaro:install```
 1. Run ```rake secret``` and add secret key to ```config/application.yml``` file for ```APP_SECRET_KEY_BASE```
+1. Edit ```.gitignore``` as appropriate to hide secure variables
+1. Change the ```.travis.yml``` file for the db name
 
 ## Create Staging Environment on Heroku
 
@@ -35,4 +45,9 @@
 
 1. Push environment vars to heroku: ```rake figaro:heroku --remote [remote_name]```
 
+## Custom Tasks
 
+* deploy to staging: ```rake deploy:staging```
+* deploy to production: ```rake deploy:production```
+* teardown/rebuild dev: ```rake app:rebuild```
+* lint Travis setup: ```travis-lint```

@@ -2,11 +2,11 @@ development:
   adapter: postgresql
   host: localhost
   username: postgres
-  database: app_name_dev
+  database: app_dev
   pool: 5
   timeout: 5000
 
 test:
   adapter: postgresql
-  database: app_name_test
+  database: app_test
   username: postgres

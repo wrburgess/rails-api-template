@@ -32,4 +32,5 @@ group :development, :test do
   gem "pry-remote", "0.1.8"
   gem "rspec-rails", "2.14.1"
   gem "shoulda", "3.5.0"
+  gem "travis-lint", "1.7.0"
 end

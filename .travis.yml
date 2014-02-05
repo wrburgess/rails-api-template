@@ -1,0 +1,15 @@
+language:
+  - ruby
+rvm:
+  - 2.1.0p0
+env:
+  global: 
+    - RAILS=4.0.2
+    - DB=postgresql
+    - APP_SECRET_KEY_BASE='travis-secret-key'
+branches:
+  only:
+    - master
+before_script:
+  - psql -c 'create database app_test;' -U postgres
+  - 'rake db:migrate'
