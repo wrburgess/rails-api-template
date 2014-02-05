@@ -21,7 +21,7 @@
 * active_admin: *quick admin dashboard*, [gem](http://rubygems.org/gems/activeadmin) | [repo](https://github.com/gregbell/active_admin) | [site](http://activeadmin.info/)
 * gemnasium: [site](https://gemnasium.com/wrburgess/rails-api-template) | [dashboard](https://gemnasium.com/dashboard)
 * code climate: [site](https://codeclimate.com/github/wrburgess/rails-api-template)
-* travis-ci: [site](travis-ci.com) | [profile](https://travis-ci.org/profile/wrburgess)
+* travis-ci: [site](travis-ci.com) | [profile](https://travis-ci.org/wrburgess/rails-api-template)
 
 ## Initial Tasks
 
