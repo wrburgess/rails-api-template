@@ -10,7 +10,7 @@ gem "pg", "0.17.1"
 gem "sass-rails", "4.0.1"
 gem "settingslogic", "2.0.9"
 gem "uglifier", "2.4.0"
-gem "unicorn", "4.8.1"
+gem "unicorn", "4.8.2"
 
 group :production do 
   gem "rails_12factor", "0.0.2"
@@ -28,6 +28,7 @@ group :development, :test do
   gem "faker", "1.2.0"
   gem "figaro", "0.7.0"
   gem "fuubar", "1.3.2"
+  gem "hakiri", "0.7.0"
   gem "pry-rails", "0.3.2"
   gem "pry-remote", "0.1.8"
   gem "rspec-rails", "2.14.1"

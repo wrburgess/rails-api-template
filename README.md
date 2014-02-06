@@ -11,8 +11,7 @@
 
 1. Install Devise  
 1. Install ActiveAdmin  
-1. Install Travis  
-1. Tests passing  
+1. Install JSON responses  
 
 ## References
 
