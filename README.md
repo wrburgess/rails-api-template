@@ -51,3 +51,5 @@
 * deploy to production: ```rake deploy:production```
 * teardown/rebuild dev: ```rake app:rebuild```
 * lint Travis setup: ```travis-lint```
+* scan gems for security: ```hakiri gemfile:scan```
+* scan code for quality: ```rubocop```

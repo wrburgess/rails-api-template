@@ -1,12 +1,12 @@
-require 'spec_helper'
+require "spec_helper"
 
 describe Widget do
 
-  it 'has a valid factory' do
+  it "has a valid factory" do
     FactoryGirl.create(:widget).should be_valid
   end
 
-  it 'is invalid without a title' do
+  it "is invalid without a title" do
     FactoryGirl.build(:widget, title: nil).should_not be_valid
   end
 
