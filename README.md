@@ -53,3 +53,4 @@
 * lint Travis setup: ```travis-lint```
 * scan gems for security: ```hakiri gemfile:scan```
 * scan code for quality: ```rubocop```
+* scan code for security: ```brakeman```
