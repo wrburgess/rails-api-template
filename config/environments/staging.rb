@@ -77,4 +77,7 @@ App::Application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
+
+  # Devise default url config
+  config.action_mailer.default_url_options = { host: "offbook-server-staging.herokuapp.com" }
 end
