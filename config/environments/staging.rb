@@ -79,5 +79,5 @@ App::Application.configure do
   config.log_formatter = ::Logger::Formatter.new
 
   # Devise default url config
-  config.action_mailer.default_url_options = { host: "offbook-server-staging.herokuapp.com" }
+  config.action_mailer.default_url_options = { host: "rails-api-template-staging.herokuapp.com" }
 end
