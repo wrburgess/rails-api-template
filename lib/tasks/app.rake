@@ -1,6 +1,6 @@
 namespace :app do
   desc "Rebuild db with drop, create, migrate, test:prepare (dev only)"
-  task :rebuild => :environment do
+  task rebuild: :environment do
     input = ''
     STDOUT.puts "Drop, recreate, and migrate app database? y[es] or n[o]"
     input = STDIN.gets.chomp
