@@ -4,6 +4,7 @@ ruby "2.1.0"
 gem "rails", "4.0.2"
 
 gem "active_model_serializers", "0.8.1"
+gem "devise", "3.2.2"
 gem "haml-rails", "0.5.3"
 gem "jquery-rails", "3.1.0"
 gem "pg", "0.17.1"
