@@ -34,6 +34,8 @@
 1. Run ```rake secret``` and add secret key to ```config/application.yml``` file for ```APP_SECRET_KEY_BASE```
 1. Edit ```.gitignore``` as appropriate to hide secure variables
 1. Change the ```.travis.yml``` file for the db name
+1. Change the email domains for devise in the ```development.rb, staging.rb, production.rb``` env files
+1. Change the devise email address in ```config/initializers/devise.rb``` file
 
 ## Create Staging Environment on Heroku
 
