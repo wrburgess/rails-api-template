@@ -10,8 +10,23 @@ AllCops:
 StringLiterals:
   EnforcedStyle: double_quotes
 
+Documentation:
+  Enabled: false
+
 LineLength:
-  Max: 150
+  Enabled: false
 
 Documentation:
+  Enabled: false
+
+MethodLength:
+  Enabled: false
+
+ClassLength:
+  Enabled: false
+
+SpaceAroundEqualsInParameterDefault:
+  Enabled: false
+
+CyclomaticComplexity:
   Enabled: false
