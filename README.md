@@ -56,3 +56,10 @@
 * scan gems for security: ```hakiri gemfile:scan```
 * scan code for quality: ```rubocop```
 * scan code for security: ```brakeman```
+
+## Before Production
+
+* Set up Cloudfront caching/expiration [ref](http://fideloper.com/cloudfront-full-site-delivery)
+* Consider Geo Restrictions for cost/security control
+* For JavaScript referenced in the head of the document and needed for page startup, it should be served from the same hostname as the main document. 
+

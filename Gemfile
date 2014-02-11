@@ -33,6 +33,7 @@ group :development, :test do
   gem "hakiri", "0.7.0"
   gem "pry-rails", "0.3.2"
   gem "pry-remote", "0.1.8"
+  gem "quiet_assets", "1.0.2"
   gem "rspec-rails", "2.14.1"
   gem "rubocop", "0.18.1"
   gem "shoulda", "3.5.0"
