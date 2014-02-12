@@ -15,9 +15,7 @@ describe User do
 
   describe "#sign_in" do
     context "valid user" do
-      before do
-        user = FactoryGirl.create(:user)
-      end
+      let(:user) { FactoryGirl.create :user }
 
       xit "should look up a user by email" do
         User.should_receive(:find_by).with(email: user.email)
