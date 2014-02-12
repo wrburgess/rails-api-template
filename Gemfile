@@ -25,7 +25,7 @@ group :development, :test do
   gem "brakeman", "2.4.0"
   gem "capybara", "2.2.1"
   gem "database_cleaner", "1.2.0"
-  gem "factory_girl_rails", "4.3.0"
+  gem "factory_girl_rails", "4.4.0"
   gem "faker", "1.2.0"
   gem "figaro", "0.7.0"
   gem "fuubar", "1.3.2"
