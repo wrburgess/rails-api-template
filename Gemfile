@@ -3,6 +3,7 @@ source "https://rubygems.org"
 ruby "2.1.0"
 gem "rails", "4.0.3"
 
+# gem "activeadmin", github: "gregbell/active_admin"
 gem "active_model_serializers", "0.8.1"
 gem "devise", "3.2.2"
 gem "haml-rails", "0.5.3"
@@ -12,7 +13,7 @@ gem "sass-rails", "4.0.1"
 gem "settingslogic", "2.0.9"
 gem "uglifier", "2.4.0"
 
-group :production, :staging do 
+group :production, :staging do
   gem "rails_12factor", "0.0.2"
   gem "unicorn", "4.8.2"
 end
