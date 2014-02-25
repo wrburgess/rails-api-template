@@ -45,7 +45,7 @@
 
 ## Set up Environment Variables on Heroku
 
-1. Push environment vars to heroku: ```rake figaro:heroku --remote [remote_name]```
+1. Push environment vars to heroku: ```rake figaro:heroku[app_name]```
 
 ## Custom Tasks
 
@@ -66,6 +66,3 @@ APP_SECRET_KEY_BASE: 142607a418168dbd5485b29fe70866d66c48aa4cc50dba93215128f5f4c
 RUN_MIGRATIONS: true
 DEPLOY_WITHOUT_SPECS: false
 ```
-
-
-
