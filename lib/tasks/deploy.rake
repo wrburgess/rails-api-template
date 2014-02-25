@@ -10,7 +10,7 @@ end
 namespace :deploy do
   HEROKU_ACCOUNT = "devmynd"
   MAINLINE_BRANCH = "master"
-  STAGING_REMOTE = "rails-template-staging"
+  STAGING_REMOTE = "rails-api-template"
   PRODUCTION_REMOTE = "rails-template-production"
 
   def make_git_timestamp
