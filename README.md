@@ -9,9 +9,9 @@
 
 ## To Do
 
-1. Install Devise  
-1. Install ActiveAdmin  
-1. Install JSON responses  
+1. Install Devise
+1. Install ActiveAdmin
+1. Install JSON responses
 
 ## References
 
@@ -34,6 +34,7 @@
 1. Run ```rake secret``` and add secret key to ```config/application.yml``` file for ```APP_SECRET_KEY_BASE```
 1. Edit ```.gitignore``` as appropriate to hide secure variables
 1. Change the ```.travis.yml``` file for the db name
+1. Change the repo (staging/production) references in the ```lib/tasks/deploy.rake``` file
 
 ## Create Staging Environment on Heroku
 

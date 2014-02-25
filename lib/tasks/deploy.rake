@@ -1,19 +1,17 @@
 def system_try_and_fail(command)
-  Bundler.with_clean_env do
-    sh command do |ok, res|
-      if !ok
-        system_try_and_fail "git checkout master"
-        raise "FAILURE: Error running #{command} (Pwd: #{Dir.pwd}, exit status:#{res.exitstatus}). Aborting"
-      end
+  sh command do |ok, res|
+    if !ok
+      system_try_and_fail "git checkout master"
+      raise "FAILURE: Error running `#{command}`. (Pwd: #{Dir.pwd}, exit status: #{res.exitstatus}). Aborting..."
     end
   end
 end
 
 namespace :deploy do
-  HEROKU_ACCOUNT = "wrburgess"
+  HEROKU_ACCOUNT = "devmynd"
   MAINLINE_BRANCH = "master"
-  STAGING_REMOTE = "rails-api-template"
-  PRODUCTION_REMOTE = "rails-api-template"
+  STAGING_REMOTE = "rails-template-staging"
+  PRODUCTION_REMOTE = "rails-template-production"
 
   def make_git_timestamp
     "#{@env}-deploy-#{Time.now.to_s.gsub(/:/, "-").gsub(/\s/, "-").gsub(/--/, "-")}"
@@ -23,7 +21,7 @@ namespace :deploy do
     branches = (`git branch`).split
     branches.each_with_index do |br, i|
       if br == "*" && branches[i+1] != MAINLINE_BRANCH
-        raise "DEPLOY FAILED: You are not on #{MAINLINE_BRANCH}, you cannot deploy from other branches."
+        raise "FAILURE! You are not on #{MAINLINE_BRANCH}, you cannot deploy from other branches."
       end
     end
   end
@@ -35,7 +33,7 @@ namespace :deploy do
 
   def set_heroku_account
     system_try_and_fail "heroku accounts:set #{HEROKU_ACCOUNT}"
-    puts "******** Heroku account set to #{HEROKU_ACCOUNT}"
+    puts "******** Heroku account set to: #{HEROKU_ACCOUNT}"
   end
 
   def run_deploy
