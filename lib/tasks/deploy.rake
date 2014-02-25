@@ -83,7 +83,7 @@ namespace :deploy do
   end
 
   def start_maintenance
-    return unless ENV["MAINTENANCE_MODE"] == "true"
+    return unless ENV["MAINTENANCE_MODE"] == "false"
     puts "******** Starting maintenance mode"
     system_try_and_fail "heroku maintenance:on --app=#{@repo}"
   end

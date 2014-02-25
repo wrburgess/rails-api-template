@@ -32,6 +32,7 @@
 1. Edit the initial database migration file as appropriate at ```db/migrate```
 1. Install figaro gem with ```rails generate figaro:install```
 1. Run ```rake secret``` and add secret key to ```config/application.yml``` file for ```APP_SECRET_KEY_BASE```
+1. Add deployment setting to ```config/application.yml``` file for ```RUN_MIGRATIONS: true```
 1. Edit ```.gitignore``` as appropriate to hide secure variables
 1. Change the ```.travis.yml``` file for the db name
 1. Change the repo (staging/production) references in the ```lib/tasks/deploy.rake``` file
@@ -55,3 +56,16 @@
 * scan gems for security: ```hakiri gemfile:scan```
 * scan code for quality: ```rubocop```
 * scan code for security: ```brakeman```
+
+## Example Env Config File
+
+Create and place in the ```config/application.yml``` file  
+
+```
+APP_SECRET_KEY_BASE: 142607a418168dbd5485b29fe70866d66c48aa4cc50dba93215128f5f4cd749f93493f7574489aa233554896cd1847024dafad9cb39d5bec536e34e77c43d332
+RUN_MIGRATIONS: true
+DEPLOY_WITHOUT_SPECS: false
+```
+
+
+
