@@ -8,7 +8,7 @@ def system_try_and_fail(command)
 end
 
 namespace :deploy do
-  HEROKU_ACCOUNT = "devmynd"
+  HEROKU_ACCOUNT = "wrburgess"
   MAINLINE_BRANCH = "master"
   STAGING_REMOTE = "rails-api-template"
   PRODUCTION_REMOTE = "rails-template-production"
