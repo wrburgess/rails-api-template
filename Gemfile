@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-ruby "2.1.0"
+ruby "2.1.1"
 gem "rails", "4.0.4"
 
 gem "active_model_serializers", "0.8.1"
@@ -23,7 +23,7 @@ group :development do
 end
 
 group :development, :test do
-  gem "brakeman", "2.4.2"
+  gem "brakeman", "2.4.3"
   gem "capybara", "2.2.1"
   gem "capybara-screenshot", "0.3.17"
   gem "database_cleaner", "1.2.0"
@@ -35,7 +35,7 @@ group :development, :test do
   gem "launchy", "2.4.2"
   gem "pry-rails", "0.3.2"
   gem "pry-remote", "0.1.8"
-  gem "rspec-rails", "2.14.1"
+  gem "rspec-rails", "2.14.2"
   gem "rubocop", "0.19.1"
   gem "shoulda", "3.5.0"
   gem "travis-lint", "1.8.0"
