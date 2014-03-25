@@ -6,11 +6,11 @@ gem "rails", "4.0.4"
 gem "active_model_serializers", "0.8.1"
 gem "haml-rails", "0.5.3"
 gem "jquery-rails", "3.1.0"
-gem "oink"
 gem "pg", "0.17.1"
 gem "sass-rails", "4.0.2"
 gem "settingslogic", "2.0.9"
 gem "uglifier", "2.5.0"
+gem "tilt", "1.3.7"
 
 group :production, :staging do
   gem "rails_12factor", "0.0.2"
@@ -38,5 +38,5 @@ group :development, :test do
   gem "rspec-rails", "2.14.2"
   gem "rubocop", "0.19.1"
   gem "shoulda", "3.5.0"
-  gem "travis-lint", "1.8.0"
+  gem "travis-yaml", "0.1.0"
 end
