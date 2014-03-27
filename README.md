@@ -63,7 +63,7 @@
 Create and place in the ```config/application.yml``` file  
 
 ```
-APP_SECRET_KEY_BASE: 142607a418168dbd5485b29fe70866d66c48aa4cc50dba93215128f5f4cd749f93493f7574489aa233554896cd1847024dafad9cb39d5bec536e34e77c43d332
+APP_SECRET_KEY_BASE: xxx
 RUN_MIGRATIONS: true
 DEPLOY_WITHOUT_SPECS: false
 ```
