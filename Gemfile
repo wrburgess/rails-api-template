@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 ruby "2.1.1"
-gem "rails", "4.0.4"
+gem "rails", "4.1.0"
 
 gem "active_model_serializers", "0.8.1"
 gem "haml-rails", "0.5.3"
