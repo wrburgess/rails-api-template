@@ -36,7 +36,7 @@ group :development, :test do
   gem "pry-rails", "0.3.2"
   gem "pry-remote", "0.1.8"
   gem "rspec-rails", "2.14.2"
-  gem "rubocop", "0.20.1"
+  gem "rubocop", "0.21.0"
   gem "shoulda", "3.5.0"
   gem "travis-yaml", "0.1.0"
 end
