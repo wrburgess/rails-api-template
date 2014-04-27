@@ -38,5 +38,6 @@ group :development, :test do
   gem "rspec-rails", "2.14.2"
   gem "rubocop", "0.21.0"
   gem "shoulda", "3.5.0"
+  gem "spring", "1.1.2"
   gem "travis-yaml", "0.1.0"
 end
