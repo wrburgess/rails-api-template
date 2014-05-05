@@ -3,7 +3,7 @@ rvm:
   - 2.1.1
 env:
   global:
-    - RAILS=4.0.4
+    - RAILS=4.1.0
     - DB=postgresql
     - APP_SECRET_KEY_BASE='travis-secret-key'
 branches:
