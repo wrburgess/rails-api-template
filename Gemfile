@@ -23,7 +23,7 @@ group :development do
 end
 
 group :development, :test do
-  gem "brakeman", "2.4.3"
+  gem "brakeman", "2.5.0"
   gem "capybara", "2.2.1"
   gem "capybara-screenshot", "0.3.19"
   gem "database_cleaner", "1.2.0"

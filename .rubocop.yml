@@ -1,8 +1,8 @@
 AllCops:
-  Includes:
+  Include:
     - '**/*.gemspec'
     - '**/Rakefile'
-  Excludes:
+  Exclude:
     - db/schema.rb
     - db/migrate/*
   RunRailsCops: true
