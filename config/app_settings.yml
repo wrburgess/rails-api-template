@@ -1,18 +1,24 @@
 defaults: &defaults
-  app_name: "AppName"
+  app_name: "ITS"
+  app_server: "Production"
+  default_url: "http://its-production.herokuapp.com"
 
 test:
   <<: *defaults
   app_server: "Test"
+  default_url: "http://localhost:3000"
 
 development:
   <<: *defaults
   app_server: "Development"
+  default_url: "http://localhost:3000"
 
 staging:
   <<: *defaults
   app_server: "Staging"
+  default_url: "http://its-staging.herokuapp.com"
 
 production:
   <<: *defaults
   app_server: "Production"
+  default_url: "http://its-production.herokuapp.com"
