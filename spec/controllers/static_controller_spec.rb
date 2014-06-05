@@ -1,6 +1,6 @@
 require "spec_helper"
 
-describe StaticController do
+describe StaticController, type: :controller do
   describe "#home" do
     it "renders the home template" do
       get :home

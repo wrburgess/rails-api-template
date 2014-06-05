@@ -1,6 +1,6 @@
 require "spec_helper"
 
-describe Widget do
+describe Widget, type: :model do
 
   it "has a valid factory" do
     expect(FactoryGirl.create :widget).to be_valid

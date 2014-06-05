@@ -1,6 +1,6 @@
 require "spec_helper"
 
-describe ApplicationHelper do
+describe ApplicationHelper, type: :helper do
   describe "#copyright_notice" do
     it "renders the current year in the Copyright notice" do
       current_year = Time.new.strftime "%Y"

@@ -1,11 +1,11 @@
 require_relative '../../spec_helper'
 
-describe AppSettings do
+describe AppSettings, type: :class do
   it "should retrieve app name" do
-    AppSettings.app_name.should eq("AppName")
+    expect(AppSettings.app_name).to eq("AppName")
   end
 
   it "should not retrieve wrong app name" do
-    AppSettings.app_name.should_not eq("AppName")
+    expect(AppSettings.app_name).not_to eq("AppName")
   end
 end
