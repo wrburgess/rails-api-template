@@ -1,4 +1,4 @@
-require "spec_helper"
+require "rails_helper"
 
 describe "visiting static pages", type: :feature do
   describe "visiting home page" do

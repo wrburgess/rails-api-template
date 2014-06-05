@@ -33,7 +33,7 @@ group :development, :test do
   gem "launchy", "2.4.2"
   gem "pry-rails", "0.3.2"
   gem "pry-remote", "0.1.8"
-  gem "rspec-rails", "2.99.0"
+  gem "rspec-rails", "3.0.1"
   gem "rubocop", "0.23.0"
   gem "shoulda-matchers", "2.6.1"
   gem "spring", "1.1.3"

@@ -1,4 +1,4 @@
-require "spec_helper"
+require "rails_helper"
 
 describe StaticController, type: :controller do
   describe "#home" do
