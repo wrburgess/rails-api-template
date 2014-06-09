@@ -9,7 +9,6 @@ gem "jquery-rails", "3.1.0"
 gem "pg", "0.17.1"
 gem "sass-rails", "4.0.3"
 gem "settingslogic", "2.0.9"
-gem "tilt", "1.3.7"
 gem "uglifier", "2.5.0"
 
 group :production, :staging do
@@ -23,7 +22,7 @@ group :development do
 end
 
 group :development, :test do
-  gem "brakeman", "2.5.0"
+  gem "brakeman", "2.6.0"
   gem "capybara", "2.3.0"
   gem "database_cleaner", "1.3.0"
   gem "factory_girl_rails", "4.4.1"
